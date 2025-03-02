@@ -5,7 +5,7 @@ import './index.css'
 import { AuthProvider } from './authContext.jsx'
 import ProjectRoutes from './Routes.jsx';
 import { BrowserRouter as Router } from 'react-router-dom'
-
+//this is error i  want to fix this 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <AuthProvider>
     <Router>
